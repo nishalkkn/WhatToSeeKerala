@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathanamthitta</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg  navbar-light bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold text-white" href="#whattosee">WhatToSee</a>
+          <button class="navbar-toggler" type="button " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  North kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="kasaragod.html">Kasaragod</a></li>
+                  <li><a class="dropdown-item" href="kannur.html">Kannur</a></li>
+                  <li><a class="dropdown-item" href="wayanad.html">Wayanad</a></li>
+                  <li><a class="dropdown-item" href="kozhikode.html">Kozhikode</a></li>
+                  <li><a class="dropdown-item" href="malappuram.html">Malappuram</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  central kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="palakkad.html">Palakkad</a></li>
+                  <li><a class="dropdown-item" href="thrissur.html">Thrissur</a></li>
+                  <li><a class="dropdown-item" href="ernakulam.html">Ernakulam</a></li>
+                  <li><a class="dropdown-item" href="idukki.html">Idukki</a></li>
+                  <li><a class="dropdown-item" href="kottayam.html">Kottayam</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  South kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="alappuzha.html">Alappuzha</a></li>
+                  <li><a class="dropdown-item" href="patahanmthitta.html">Pathanamthitta</a></li>
+                  <li><a class="dropdown-item" href="kollam.html">Kollam</a></li>
+                  <li><a class="dropdown-item" href="thiruvananthapuram.html">Thiruvananthapuram</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- carausel -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <!-- No need for indicators for additional slides if there's only one -->
+        </div>
+      
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay"></div>
+            <img src="./images/patahanmthitta.jpg" class="slide d-block w-100" alt="...">
+            <div class="carousel-caption d-flex align-items-center justify-content-center text-white">
+              <div>
+                <h5 class="custom-large-text"><b>Pathanamthitta</b></h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      
+        <!-- Navigation buttons remain the same -->
+      
+        <style>
+          .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(3, 3, 3, 0.3); /* Adjust the alpha value for the desired opacity */
+          }
+      
+          .carousel-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            text-align: center;
+          }
+      
+          .custom-large-text {
+            font-size: 6em; /* Adjust the font size as needed */
+            text-align: center;
+          }
+      
+          /* Responsive adjustments */
+          @media (max-width: 768px) {
+            .custom-large-text {
+              font-size: 2em; /* Adjust the font size for smaller screens */
+            }
+          }
+
+          @media (max-width: 768px) {
+            img.slide{
+                height: 350px;
+           }
+
+          }
+
+          .carouselExampleCaptions{
+            text-align: end;
+          }
+
+
+          @media (max-width: 768px) {
+    .card-body {
+      text-align: center; /* Center-align text for smaller screens */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      height: auto; /* Set height to auto for smaller screens */
+    }
+  }
+
+        </style>
+      </div>
+      
+
+      <!-- cards -->
+      <br><br>
+  <div>
+    <center>
+      <h1 id="whattosee">What to See</h1>
+    </center>
+  </div>
+
+  <br><br>
+ 
+<div class="container">
+    <!-- First Row -->
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/shabarimala,..jpg" class="card-img-top" alt="Sabarimala Temple" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Sabarimala Temple</h5>
+                    <p class="card-text">Nestled in the Western Ghats, Sabarimala is a renowned pilgrimage site dedicated to Lord Ayyappa, attracting millions of devotees annually.</p>
+                    <a href="https://maps.app.goo.gl/jTCK9ATXCKU36XLMA" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/Perunthenaruvi_Falls_.jpg" class="card-img-top" alt="Perunthenaruvi Waterfall" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Perunthenaruvi Waterfall</h5>
+                    <p class="card-text">Experience the breathtaking Perunthenaruvi Waterfall, a cascading beauty surrounded by lush greenery, offering a serene escape into nature.</p>
+                    <a href="https://maps.app.goo.gl/6mEusWcSWsGDXUqN6" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/aranmula-parthasarathy.jpg" class="card-img-top" alt="Aranmula Parthasarathy Temple" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Aranmula Parthasarathy Temple</h5>
+                    <p class="card-text">Immerse yourself in the divine ambiance of Aranmula Parthasarathy Temple, a sacred Hindu shrine with a rich cultural and religious heritage.</p>
+                    <a href="https://maps.app.goo.gl/bkbRmDvG56cWyrEr6" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of First Row -->
+<br>
+    <!-- Second Row -->
+    <div class="row">
+        <!-- Card 4 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/maramon-convention-.jpg" class="card-img-top" alt="Maramon Convention" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Maramon Convention</h5>
+                    <p class="card-text">Maramon Convention, the largest Christian gathering in Asia, is a spiritual event that draws believers together for worship, reflection, and fellowship.</p>
+                    <a href="https://maps.app.goo.gl/Rq9TsvEZmAASkHc76" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/Konni-elephent-camp.jpg" class="card-img-top" alt="Konni Elephant Training Center" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Konni Elephant Training Center</h5>
+                    <p class="card-text">Explore Konni Elephant Training Center, where you can witness the majestic elephants being trained and cared for in a natural environment.</p>
+                    <a href="https://maps.app.goo.gl/p6XtjPBTEFixdjqE6" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/gavi....jpg" class="card-img-top" alt="Gavi Eco-Tourism" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Gavi Eco-Tourism</h5>
+                    <p class="card-text">Gavi Eco-Tourism invites you to discover its pristine landscapes and diverse wildlife, offering a perfect retreat for nature enthusiasts.</p>
+                    <a href="https://maps.app.goo.gl/sztAzJxq9jz8Utmf7" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Second Row -->
+<br>
+    <!-- Third Row -->
+    <div class="row">
+        <!-- Card 7 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/pandalam-palace-.jpg" class="card-img-top" alt="Pandalam Palace" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Pandalam Palace</h5>
+                    <p class="card-text">Pandalam Palace, steeped in history, is associated with the royal family and the Sastha Temple, adding cultural richness to the region.</p>
+                    <a href="https://maps.app.goo.gl/dRfa9UBXGhige9XX6" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/achankovil sastha temple.JPG" class="card-img-top" alt="Achankovil Sastha Temple" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Achankovil Sastha Temple</h5>
+                    <p class="card-text">Seek blessings at Achankovil Sastha Temple, a sacred abode nestled in the hills, surrounded by panoramic views and spiritual tranquility.</p>
+                    <a href="https://maps.app.goo.gl/rXtnnf4ztftjEpRr6" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/Charalkunnu-Kerala.jpg" class="card-img-top" alt="Charalkunnu" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Charalkunnu</h5>
+                    <p class="card-text">Charalkunnu offers a scenic escape with its rolling hills and lush greenery, providing a peaceful environment for relaxation and rejuvenation.</p>
+                    <a href="https://maps.app.goo.gl/7frJ3vAsShoh9RcA7" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Third Row -->
+<br>
+    <!-- Fourth Row -->
+    <div class="row">
+        <!-- Card 10 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/adavi.jpg" class="card-img-top" alt="Adavi Eco-Tourism" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Adavi Eco-Tourism</h5>
+                    <p class="card-text">Adavi Eco-Tourism beckons adventure seekers with its dense forests, river trails, and eco-friendly experiences in the heart of nature.</p>
+                    <a href="https://maps.app.goo.gl/HNFALRaYxF3gugKV8" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 11 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/mannadi veluthambi dalawa memorial.jpg" class="card-img-top" alt="Mannadi" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Mannadi</h5>
+                    <p class="card-text">Explore Mannadi, a historical village with landmarks like the Mannadi Devi Temple and the memorial of Velu Thampi Dalawa, offering a glimpse into the past.</p>
+                    <a href="https://maps.app.goo.gl/nJzjJPqQ9WAXwAQy5" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 12 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/Kaviyoor_Mahadeva_Temple_2782.jpg" class="card-img-top" alt="Kaviyoor Mahadeva Temple" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Kaviyoor Mahadeva Temple</h5>
+                    <p class="card-text">Kaviyoor Mahadeva Temple, with its ancient architecture and spiritual aura, is a serene destination for devotees and history enthusiasts alike.</p>
+                    <a href="https://maps.app.goo.gl/XSvNJRZn3q1wbfWb9" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Fourth Row -->
+<br>
+    <!-- Fifth Row -->
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/Pazhaya-Sreekandeswaram-Temple-1140x530.jpg" class="card-img-top" alt="Pazhaya Sreekanteswaram Temple" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Pazhaya Sreekanteswaram Temple</h5>
+                    <p class="card-text">Discover the Pazhaya Sreekanteswaram Temple, an ancient shrine resonating with spiritual energy and architectural elegance.</p>
+                    <a href="https://maps.app.goo.gl/WSK1J77oExdrKfq8A" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/Kaviyoor_Rock_Cut_Temple_Pathanamthitta_2587.jpg" class="card-img-top" alt="Kaviyoor Rock Cut Cave Temple" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Kaviyoor Rock Cut Cave Temple</h5>
+                    <p class="card-text">Marvel at the ancient rock-cut wonders of Kaviyoor, where history and spirituality converge in a unique and intriguing cave temple.</p>
+                    <a href="https://maps.app.goo.gl/uk9YtY7Xke1BGhtG6" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 26.2rem;">
+                <img src="./images/pathanamthitta/kadammanitta_padayani.jpg" class="card-img-top" alt="Kuttikayam Madom" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Kadammanitta Padayani   </h5>
+                    <p class="card-text">Kadammanitta Padayani is nature's enchanting tales beneath emerald canopies, a symphony of tranquil solitude unfolds in beauty.</p>
+                    <a href="https://maps.app.goo.gl/3NJVnFyZAsMgmyPZ9" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Fifth Row -->
+</div>
+
+
+
+  <br><br>
+
+   <!-- footer -->
+
+   <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <p>@author : nishalkk19@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+
+  
+      
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js   "></script>
+</body>
+</html>

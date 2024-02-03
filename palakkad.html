@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>palakkad</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg  navbar-light bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold text-white" href="#whattosee">WhatToSee</a>
+          <button class="navbar-toggler" type="button " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  North kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="kasaragod.html">Kasaragod</a></li>
+                  <li><a class="dropdown-item" href="kannur.html">Kannur</a></li>
+                  <li><a class="dropdown-item" href="wayanad.html">Wayanad</a></li>
+                  <li><a class="dropdown-item" href="kozhikode.html">Kozhikode</a></li>
+                  <li><a class="dropdown-item" href="malappuram.html">Malappuram</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  central kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="palakkad.html">Palakkad</a></li>
+                  <li><a class="dropdown-item" href="thrissur.html">Thrissur</a></li>
+                  <li><a class="dropdown-item" href="ernakulam.html">Ernakulam</a></li>
+                  <li><a class="dropdown-item" href="idukki.html">Idukki</a></li>
+                  <li><a class="dropdown-item" href="kottayam.html">Kottayam</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  South kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="alappuzha.html">Alappuzha</a></li>
+                  <li><a class="dropdown-item" href="patahanmthitta.html">Pathanamthitta</a></li>
+                  <li><a class="dropdown-item" href="kollam.html">Kollam</a></li>
+                  <li><a class="dropdown-item" href="thiruvananthapuram.html">Thiruvananthapuram</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- carausel -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <!-- No need for indicators for additional slides if there's only one -->
+        </div>
+      
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay"></div>
+            <img src="./images/palakkad.png" class="slide d-block w-100" alt="...">
+            <div class="carousel-caption d-flex align-items-center justify-content-center text-white">
+              <div>
+                <h5 class="custom-large-text"><b>Palakkad</b></h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      
+        <!-- Navigation buttons remain the same -->
+      
+        <style>
+          .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(3, 3, 3, 0.3); /* Adjust the alpha value for the desired opacity */
+          }
+      
+          .carousel-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            text-align: center;
+          }
+      
+          .custom-large-text {
+            font-size: 6em; /* Adjust the font size as needed */
+            text-align: center;
+          }
+      
+          /* Responsive adjustments */
+          @media (max-width: 768px) {
+            .custom-large-text {
+              font-size: 3em; /* Adjust the font size for smaller screens */
+            }
+          }
+
+          @media (max-width: 768px) {
+            img.slide{
+                height: 350px;
+           }
+
+          }
+
+          .carouselExampleCaptions{
+            text-align: end;
+          }
+
+
+          @media (max-width: 768px) {
+    .card-body {
+      text-align: center; /* Center-align text for smaller screens */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      height: auto; /* Set height to auto for smaller screens */
+    }
+  }
+
+        </style>
+      </div>
+      
+
+      <!-- cards -->
+      <br><br>
+  <div>
+    <center>
+      <h1 id="whattosee">What to See</h1>
+    </center>
+  </div>
+
+  <br><br>
+  <div class="container">
+    <!-- First Row -->
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/palakkad-fort-tipus-fort-palakkad-.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Palakkad Fort</h5>
+                    <p class="card-text">Historical fortress known for its architectural significance and cultural heritage.</p>
+                    <a href="https://maps.app.goo.gl/zKjYAUt1tGwYSzN97" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/malampuzha.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Malampuzha Dam</h5>
+                    <p class="card-text">Iconic dam surrounded by lush greenery, offering breathtaking views and boat rides.</p>
+                    <a href="https://maps.app.goo.gl/sU3ryuouM5YaZ9zaA" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/Nelliyampathy hills.jpeg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Nelliyampathy Hills</h5>
+                    <p class="card-text">Scenic hill station with misty mountains, perfect for nature lovers and trekking enthusiasts.</p>
+                    <a href="https://maps.app.goo.gl/5Mr8rQSFbczgo2iS8" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of First Row -->
+
+    <br>
+
+    <!-- Second Row -->
+    <div class="row">
+        <!-- Card 4 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/silent valley national park.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Silent Valley National Park</h5>
+                    <p class="card-text">Diverse national park featuring rich biodiversity and serene landscapes.</p>
+                    <a href="https://maps.app.goo.gl/oCFHy6XPRxJUGr3X7" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/kava viewpoint.jpeg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Kava Viewpoint</h5>
+                    <p class="card-text">Panoramic viewpoint providing stunning vistas of the surrounding landscapes.</p>
+                    <a href="https://maps.app.goo.gl/BESym8JjCoKb65Jw8" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/parambikulam wildlife senctuary.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Parambikulam Wildlife Sanctuary</h5>
+                    <p class="card-text">Wildlife sanctuary home to a variety of flora and fauna, ideal for nature enthusiasts.</p>
+                    <a href="https://maps.app.goo.gl/ySj9pxvXRFuJAWj59" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Second Row -->
+
+    <br>
+
+    <!-- Third Row -->
+    <div class="row">
+        <!-- Card 7 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/thiruvalathoor randu moorthy temple.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Thiruvalathoor Bhagavathy Temple</h5>
+                    <p class="card-text">Ancient temple dedicated to Thiruvalathoor Bhagavathy, known for its spiritual significance.</p>
+                    <a href="https://maps.app.goo.gl/WooZCJ4sXh9DqKzV8" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/jainimedu temple.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Jainimedu Jain Temple</h5>
+                    <p class="card-text">Jain temple showcasing intricate architecture and cultural heritage.</p>
+                    <a href="https://maps.app.goo.gl/rU4Sx3Lu9fikpFpB7" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/Kalpathy Heritage Village 01.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Kalpathy Heritage Village</h5>
+                    <p class="card-text">Heritage village preserving the traditional culture and architecture of the region.</p>
+                    <a href="https://maps.app.goo.gl/TduitYf8VMgKd5WB8" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Third Row -->
+
+    <br>
+
+    <!-- Fourth Row -->
+    <div class="row">
+        <!-- Card 10 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/dhoni-.jpeg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Dhoni Waterfalls</h5>
+                    <p class="card-text">Picturesque waterfalls surrounded by lush greenery, a perfect spot for relaxation.</p>
+                    <a href="https://maps.app.goo.gl/iUBRiKjQx3J9TjjN9" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 11 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/kollengode-palace.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Kollengode Palace</h5>
+                    <p class="card-text">Historical palace offering insights into the region's royal history and architecture.</p>
+                    <a href="https://maps.app.goo.gl/2m9ZaJy6Ns9J9cNz9" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 12 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/Fantasy_Park_2714.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Fantasy Park</h5>
+                    <p class="card-text">Amusement park featuring various rides and attractions for a fun-filled experience.</p>
+                    <a href="https://maps.app.goo.gl/aSsSku1UAJpHPxBZ6" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Fourth Row -->
+
+    <br>
+
+    <!-- Fifth Row -->
+    <div class="row">
+        <!-- Card 13 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/pothundi reservoir..jpeg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Pothundy Reservoir</h5>
+                    <p class="card-text">Scenic reservoir providing a tranquil environment for boating and relaxation.</p>
+                    <a href="https://maps.app.goo.gl/9YDXdjzANurmrk2a8" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 14 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/MEENVALLAM_WATER_FALLS.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Meenvallam Waterfalls</h5>
+                    <p class="card-text">Mesmerizing waterfalls nestled in a serene natural setting, perfect for a refreshing escape.</p>
+                    <a href="https://maps.app.goo.gl/7RUfYVKxHfQULEEg7" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 15 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/palakkad_1/Thunchan-Gurumadam.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Chittur Gurumadam</h5>
+                    <p class="card-text">Gurumadam reflecting Chittur's cultural heritage and historical significance.</p>
+                    <a href="https://maps.app.goo.gl/YnJGAJ5ZwesgzzdQ8" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+
+  <br><br>
+
+   <!-- footer -->
+
+   <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <p>@author : nishalkk19@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+
+  
+      
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js   "></script>
+</body>
+</html>

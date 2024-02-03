@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ernakulam</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg  navbar-light bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold text-white" href="#whattosee">WhatToSee</a>
+          <button class="navbar-toggler" type="button " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  North kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="kasaragod.html">Kasaragod</a></li>
+                  <li><a class="dropdown-item" href="kannur.html">Kannur</a></li>
+                  <li><a class="dropdown-item" href="wayanad.html">Wayanad</a></li>
+                  <li><a class="dropdown-item" href="kozhikode.html">Kozhikode</a></li>
+                  <li><a class="dropdown-item" href="malappuram.html">Malappuram</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  central kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="palakkad.html">Palakkad</a></li>
+                  <li><a class="dropdown-item" href="thrissur.html">Thrissur</a></li>
+                  <li><a class="dropdown-item" href="ernakulam.html">Ernakulam</a></li>
+                  <li><a class="dropdown-item" href="idukki.html">Idukki</a></li>
+                  <li><a class="dropdown-item" href="kottayam.html">Kottayam</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  South kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="alappuzha.html">Alappuzha</a></li>
+                  <li><a class="dropdown-item" href="patahanmthitta.html">Pathanamthitta</a></li>
+                  <li><a class="dropdown-item" href="kollam.html">Kollam</a></li>
+                  <li><a class="dropdown-item" href="thiruvananthapuram.html">Thiruvananthapuram</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- carausel -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <!-- No need for indicators for additional slides if there's only one -->
+        </div>
+      
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay"></div>
+            <img src="./images/fort kochi.jpg" class="slide d-block w-100" alt="...">
+            <div class="carousel-caption d-flex align-items-center justify-content-center text-white">
+              <div>
+                <h5 class="custom-large-text"><b>Ernakulam</b></h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      
+        <!-- Navigation buttons remain the same -->
+      
+        <style>
+          .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(3, 3, 3, 0.3); /* Adjust the alpha value for the desired opacity */
+          }
+      
+          .carousel-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            text-align: center;
+          }
+      
+          .custom-large-text {
+            font-size: 6em; /* Adjust the font size as needed */
+            text-align: center;
+          }
+      
+          /* Responsive adjustments */
+          @media (max-width: 768px) {
+            .custom-large-text {
+              font-size: 3em; /* Adjust the font size for smaller screens */
+            }
+          }
+
+          .carouselExampleCaptions{
+            text-align: end;
+          }
+
+          @media (max-width: 768px) {
+            img.slide{
+                height: 350px;
+           }
+
+          }
+
+
+          @media (max-width: 768px) {
+    .card-body {
+      text-align: center; /* Center-align text for smaller screens */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      height: auto; /* Set height to auto for smaller screens */
+    }
+  }
+
+        </style>
+      </div>
+      
+
+      <!-- cards -->
+      <br><br>
+  <div>
+    <center>
+      <h1 id="whattosee">What to See</h1>
+    </center>
+  </div>
+
+  <br><br>
+  <div class="container">
+    <!-- First Row -->
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/fort kochi.jpg" class="card-img-top" alt="Fort Kochi" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Fort Kochi</h5>
+                    <p class="card-text">Historic area with colonial charm, featuring Chinese fishing nets and art galleries.</p>
+                    <a href="https://maps.app.goo.gl/xtEZXD5QhzLwPpHH7" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/Mattancherry-Palace.jpg" class="card-img-top" alt="Mattancherry Palace (Dutch Palace)" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Mattancherry Palace </h5>
+                    <p class="card-text">Portuguese palace showcasing stunning Ramayana murals.</p>
+                    <a href="https://maps.app.goo.gl/YYYUbEZ3VA62Aypg7" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/jew town.jpg" class="card-img-top" alt="Jew Town" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Jew Town</h5>
+                    <p class="card-text">Quaint streets with antique shops, home to the Pardesi Synagogue.</p>
+                    <a href="https://maps.app.goo.gl/rPgrmJtDiWCWLTdT6" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of First Row -->
+<br>
+    <!-- Second Row -->
+    <div class="row">
+        <!-- Card 4 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/santa_cruz_basilica.jpg" class="card-img-top" alt="Santa Cruz Cathedral Basilica" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Santa Cruz Cathedral Basilica</h5>
+                    <p class="card-text">Majestic church showcasing Indo-European architecture.</p>
+                    <a href="https://maps.app.goo.gl/aqWALQKUkWN5yBVq9" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/st-francis-church1.jpg" class="card-img-top" alt="St. Francis Church" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">St. Francis Church</h5>
+                    <p class="card-text">Oldest European church in India, linked to Vasco da Gama.</p>
+                    <a href="https://maps.app.goo.gl/jXXcdRLcro8EeBmx9" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/marine-drive-.jpg" class="card-img-top" alt="Marine Drive" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Marine Drive</h5>
+                    <p class="card-text">Scenic waterfront promenade with panoramic city views.</p>
+                    <a href="https://maps.app.goo.gl/1yeg3r5YMb7pXVya8" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Second Row -->
+<br>
+    <!-- Third Row -->
+    <div class="row">
+        <!-- Card 7 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/bolgatty palace...jpeg" class="card-img-top" alt="Bolgatty Palace" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Bolgatty Palace</h5>
+                    <p class="card-text">Colonial-era palace on Bolgatty Island, now a heritage hotel.</p>
+                    <a href="https://maps.app.goo.gl/zZPMEzBqZRiX5UmRA" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/hill-palace-museum-ernakulam.jpg" class="card-img-top" alt="Hill Palace Museum" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Hill Palace Museum</h5>
+                    <p class="card-text">Museum displaying the history and artifacts of the Cochin royal family.</p>
+                    <a href="https://maps.app.goo.gl/cwGHCnzM2mgABrCq5" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/cherai-beach-3.jpg" class="card-img-top" alt="Cherai Beach" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Cherai Beach</h5>
+                    <p class="card-text">Pristine beach known for its golden sands and calm waters.</p>
+                    <a href="https://maps.app.goo.gl/xUKTXhaJN8rK1sB8A" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Third Row -->
+<br>
+    <!-- Fourth Row -->
+    <div class="row">
+        <!-- Card 10 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/veegaland.jpg" class="card-img-top" alt="Wonderla Kochi" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Wonderla Kochi</h5>
+                    <p class="card-text">Thrilling amusement park with a variety of rides and attractions.</p>
+                    <a href="https://maps.app.goo.gl/1BcGDsJMv3oZsPvs7" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 11 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/lulu-mal.webp" class="card-img-top" alt="Lulu Mall" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Lulu Mall</h5>
+                    <p class="card-text">One of India's largest shopping malls offering a wide range of brands.</p>
+                    <a href="https://maps.app.goo.gl/4MaVAiZVbkyT8e1HA" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 12 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/Folklore-Museum.jpg" class="card-img-top" alt="Kerala Folklore Museum" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Kerala Folklore Museum</h5>
+                    <p class="card-text">Immersive experience into Kerala's rich cultural heritage through artifacts.</p>
+                    <a href="https://maps.app.goo.gl/FLJ3cayygV9oaw2A7" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Fourth Row -->
+<br>
+    <!-- Fifth Row -->
+    <div class="row">
+        <!-- Card 13 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/Mangalavanam Bird Sanctuary.jpg" class="card-img-top" alt="Mangalavanam Bird Sanctuary" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Mangalavanam Bird Sanctuary</h5>
+                    <p class="card-text">Green oasis in the city, a haven for migratory birds and nature lovers.</p>
+                    <a href="https://maps.app.goo.gl/xXEdBVSeBWjS9j1s8" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 14 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/kochi-muziris-biennale.jpg" class="card-img-top" alt="Kochi Biennale" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Kochi Biennale</h5>
+                    <p class="card-text">Contemporary art installations across various venues in Kochi.</p>
+                    <a href="https://maps.app.goo.gl/egpbQjQEUNQ8cgVE8" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 15 -->
+        <div class="col-12 col-lg-4">
+            <div class="card" style="height: 25rem;">
+                <img src="./images/ernakulam__1/Synagogue.jpg" class="card-img-top" alt="Paradesi Synagogue" style="height: 15rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Paradesi Synagogue</h5>
+                    <p class="card-text">Beautiful synagogue in Jew Town with a collection of rare antiques.</p>
+                    <a href="https://maps.app.goo.gl/Kdsz4Xv2uUjpRNWe8" class="btn btn-primary">See in map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Fifth Row -->
+</div>
+
+  <br><br>
+
+   <!-- footer -->
+
+   <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <p>@author : nishalkk19@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+
+  
+      
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js   "></script>
+</body>
+</html>

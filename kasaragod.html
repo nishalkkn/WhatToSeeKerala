@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kasaragod</title>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg  navbar-light bg-success">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold text-white" href="#whattosee">WhatToSee</a>
+      <button class="navbar-toggler" type="button " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  North kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="kasaragod.html">Kasaragod</a></li>
+                  <li><a class="dropdown-item" href="kannur.html">Kannur</a></li>
+                  <li><a class="dropdown-item" href="wayanad.html">Wayanad</a></li>
+                  <li><a class="dropdown-item" href="kozhikode.html">Kozhikode</a></li>
+                  <li><a class="dropdown-item" href="malappuram.html">Malappuram</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  central kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="palakkad.html">Palakkad</a></li>
+                  <li><a class="dropdown-item" href="thrissur.html">Thrissur</a></li>
+                  <li><a class="dropdown-item" href="ernakulam.html">Ernakulam</a></li>
+                  <li><a class="dropdown-item" href="idukki.html">Idukki</a></li>
+                  <li><a class="dropdown-item" href="kottayam.html">Kottayam</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  South kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="alappuzha.html">Alappuzha</a></li>
+                  <li><a class="dropdown-item" href="patahanmthitta.html">Pathanamthitta</a></li>
+                  <li><a class="dropdown-item" href="kollam.html">Kollam</a></li>
+                  <li><a class="dropdown-item" href="thiruvananthapuram.html">Thiruvananthapuram</a></li>
+                </ul>
+              </li>
+          <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+        </ul>
+        <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </form> -->
+      </div>
+    </div>
+  </nav>
+
+  <!-- carausel -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <!-- No need for indicators for additional slides if there's only one -->
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="overlay"></div>
+        <img src="./images/kasaragod- bekal fort.jpeg" class="slide d-block w-100" alt="...">
+        <div class="carousel-caption d-flex align-items-center justify-content-center text-white">
+          <div>
+            <h5 class="custom-large-text"><b>Kasaragod</b></h5>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation buttons remain the same -->
+
+    <style>
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(3, 3, 3, 0.3);
+        /* Adjust the alpha value for the desired opacity */
+      }
+
+      .carousel-caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+      }
+
+      .custom-large-text {
+        font-size: 6em;
+        /* Adjust the font size as needed */
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .custom-large-text {
+          font-size: 3em;
+          /* Adjust the font size for smaller screens */
+        }
+      }
+
+
+      @media (max-width: 768px) {
+        .card-body {
+          text-align: center;
+          /* Center-align text for smaller screens */
+        }
+      }
+
+      @media (max-width: 768px) {
+            img.slide{
+                height: 350px;
+           }
+
+          }
+
+      @media (max-width: 768px) {
+        .card {
+          height: auto;
+          /* Set height to auto for smaller screens */
+        }
+      }
+    </style>
+  </div>
+
+
+  <!-- cards -->
+  <br><br>
+  <div>
+    <center>
+      <h1 id="whattosee">What to See</h1>
+    </center>
+  </div>
+
+  <br><br>
+  <div class="container">
+    <div class="row">
+      <!-- Place 1: Bekal Fort -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/Bekal-Fort-Kasargod.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Bekal Fort</h5>
+            <p class="card-text">Discover the grandeur of Bekal Fort, a historic marvel guarding the Arabian Sea coast.
+            </p>
+            <a href="https://maps.app.goo.gl/anbs3hzYvyVVX5A7A" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Place 2: Ananthapura Lake Temple -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/Ananthapura_Lake_Temple.jpg" class="card-img-top" alt="..."
+            style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Ananthapura Lake Temple</h5>
+            <p class="card-text">Experience tranquility at Ananthapura Lake Temple, an ancient shrine surrounded by
+              serenity.</p>
+            <a href="https://maps.app.goo.gl/QegGY5zV25xZSp6J6" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Place 3: Chandragiri Fort -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/Chandragiri_Fort_2420.jpg" class="card-img-top" alt="..."
+            style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Chandragiri Fort</h5>
+            <p class="card-text">Immerse yourself in the historical charm of Chandragiri Fort, offering scenic views and
+              tranquility.</p>
+            <a href="https://maps.app.goo.gl/oDAVHeS5miesLdx4A" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Continue the pattern for the remaining places -->
+    <br>
+    <div class="row">
+      <!-- Place 4: Kappil Beach -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/kappil-beach-varkala.jpg" class="card-img-top" alt="..."
+            style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Kappil Beach</h5>
+            <p class="card-text">Relax and unwind at Kappil Beach, where golden sands meet the soothing waves of the
+              Arabian Sea.</p>
+            <a href="https://maps.app.goo.gl/gdLhwewZ4PAr8NTq6" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Place 5: Malik Deenar Mosque -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/Malik_Dinar_Mosque_2428.jpg" class="card-img-top" alt="..."
+            style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Malik Deenar Mosque</h5>
+            <p class="card-text">Marvel at the architectural beauty of Malik Deenar Mosque, a symbol of religious
+              harmony.</p>
+            <a href="https://maps.app.goo.gl/ZvHpo1rif4n938kN6" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Place 6: Ranipuram -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/ranipuram.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Ranipuram</h5>
+            <p class="card-text">Embark on a journey of serenity and nature at Ranipuram, a haven for peace seekers.</p>
+            <a href="https://maps.app.goo.gl/WjHwoeErBUzG1Z1E9" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <!-- Next Row -->
+    <div class="row">
+      <!-- Place 7: Valiyaparamba Backwaters -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/valiyaparamba backwaters.jpg" class="card-img-top" alt="..."
+            style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Valiyaparamba Backwaters</h5>
+            <p class="card-text">Embark on a scenic journey through Valiyaparamba Backwaters, a tranquil paradise for
+              nature lovers.</p>
+            <a href="https://maps.app.goo.gl/NswhLLxdgUzUNR5i6" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Place 8: Kottancheri Hills -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/kottancherry_hills.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Kottancheri Hills</h5>
+            <p class="card-text">Explore the breathtaking beauty of Kottancheri Hills, a perfect destination for hiking
+              and panoramic views.</p>
+            <a href="https://maps.app.goo.gl/6DNSGe1B5gcuUs7b7" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Place 9: Trikkannad Tryambakeshwara Temple -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/thrikkanad_sree_trayambakeswara_temple.jpeg" class="card-img-top" alt="..."
+            style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Trikkannad Tryambakeshwara Temple</h5>
+            <p class="card-text">Experience divine spirituality at Trikkannad Tryambakeshwara Temple, a sacred haven of
+              peace.</p>
+            <a href="https://maps.app.goo.gl/fbYDL2CczY6Qx61p9" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- Next Row -->
+    <div class="row">
+      <!-- Place 10: Nileshwar -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/nileswaram.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Nileshwar</h5>
+            <p class="card-text">Experience the charm of Nileshwar, a coastal town known for its tranquil beaches and
+              cultural richness.</p>
+            <a href="https://maps.app.goo.gl/yXftiWeJnj2NB6CA8" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Place 11: Hosdurg Fort -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/hosdurg.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Hosdurg Fort</h5>
+            <p class="card-text">Step back in time at Hosdurg Fort, a historical marvel that narrates tales of valor and
+              heritage.</p>
+            <a href="https://maps.app.goo.gl/Y1ydCzHBHGw8EPwK9" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Place 12: Bela Church -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/bela Church.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Bela Church</h5>
+            <p class="card-text">Visit the picturesque Bela Church, a symbol of architectural beauty and spiritual
+              serenity.</p>
+            <a href="https://maps.app.goo.gl/j178h2agBwK4DkbK8" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- Next Row -->
+    <div class="row">
+      <!-- Place 13: Povval Fort -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/povval fort.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Povval FortPovval Fort</h5>
+            <p class="card-text">Explore the historical charm of Povval Fort, a coastal fortress with panoramic views of
+              the sea.</p>
+            <a href="https://maps.app.goo.gl/WSp1QzhA9knKDkCF8" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Place 14: Kanwatheertha Beach -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/kanwatheertha_beach.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Kanwatheertha Beach</h5>
+            <p class="card-text">Relish the sun and sand at Kanwatheertha Beach, a pristine coastal retreat for beach
+              enthusiasts.</p>
+            <a href="https://maps.app.goo.gl/W8sA49pxgqdGCym68" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Place 15: Mookambika Wildlife Sanctuary -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/Kasaragod_1/Mookambika Wildlife Sanctuary.jpg" class="card-img-top" alt="..."
+            style="height: 15rem;">
+          <div class="card-body">
+            <h5 class="card-title">Mookambika Wildlife Sanctuary</h5>
+            <p class="card-text">Immerse yourself in nature's wonders at Mookambika Wildlife Sanctuary, a biodiversity
+              hotspot.</p>
+            <a href="https://maps.app.goo.gl/9gJdz6qC6yiQsXsb9" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+
+  <!-- footer -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <p>@author : nishalkk19@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="/js/bootstrap.js   "></script>
+</body>
+
+</html>

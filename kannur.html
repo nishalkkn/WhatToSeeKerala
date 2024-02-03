@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kannur</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg  navbar-light bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold text-white" href="#whattosee">WhatToSee</a>
+          <button class="navbar-toggler" type="button " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  North kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="kasaragod.html">Kasaragod</a></li>
+                  <li><a class="dropdown-item" href="kannur.html">Kannur</a></li>
+                  <li><a class="dropdown-item" href="wayanad.html">Wayanad</a></li>
+                  <li><a class="dropdown-item" href="kozhikode.html">Kozhikode</a></li>
+                  <li><a class="dropdown-item" href="malappuram.html">Malappuram</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  central kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="palakkad.html">Palakkad</a></li>
+                  <li><a class="dropdown-item" href="thrissur.html">Thrissur</a></li>
+                  <li><a class="dropdown-item" href="ernakulam.html">Ernakulam</a></li>
+                  <li><a class="dropdown-item" href="idukki.html">Idukki</a></li>
+                  <li><a class="dropdown-item" href="kottayam.html">Kottayam</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  South kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="alappuzha.html">Alappuzha</a></li>
+                  <li><a class="dropdown-item" href="patahanmthitta.html">Pathanamthitta</a></li>
+                  <li><a class="dropdown-item" href="kollam.html">Kollam</a></li>
+                  <li><a class="dropdown-item" href="thiruvananthapuram.html">Thiruvananthapuram</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- carausel -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <!-- No need for indicators for additional slides if there's only one -->
+        </div>
+      
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay"></div>
+            <img src="./images/theyyam-kannur.jpg" class="slide d-block w-100" alt="...">
+            <div class="carousel-caption d-flex align-items-center justify-content-center text-white">
+              <div>
+                <h5 class="custom-large-text"><b>Kannur</b></h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      
+        <!-- Navigation buttons remain the same -->
+      
+        <style>
+          .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(3, 3, 3, 0.3); /* Adjust the alpha value for the desired opacity */
+          }
+      
+          .carousel-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            text-align: center;
+          }
+      
+          .custom-large-text {
+            font-size: 6em; /* Adjust the font size as needed */
+            text-align: center;
+          }
+      
+          /* Responsive adjustments */
+          @media (max-width: 768px) {
+            .custom-large-text {
+              font-size: 3em; /* Adjust the font size for smaller screens */
+            }
+          }
+
+          @media (max-width: 768px) {
+            img.slide{
+                height: 350px;
+           }
+
+          }
+
+          .carouselExampleCaptions{
+            text-align: end;
+          }
+
+
+          @media (max-width: 768px) {
+    .card-body {
+      text-align: center; /* Center-align text for smaller screens */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      height: auto; /* Set height to auto for smaller screens */
+    }
+  }
+
+        </style>
+      </div>
+      
+
+      <!-- cards -->
+      <br><br>
+  <div>
+    <center>
+      <h1 id="whattosee">What to See</h1>
+    </center>
+  </div>
+
+  <br><br>
+  <div class="container">
+    <!-- First Row -->
+<div class="row">
+    <!-- Card 1 -->
+    <div class="col-12 col-lg-4">
+      <div class="card" style="height: 25rem;">
+        <img src="./images/kannur_1/St. Angelo Fort.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">St. Angelo Fort</h5>
+          <p class="card-text">A historic fort with stunning views. Explore the rich history and architecture of St. Angelo Fort.</p>
+          <a href="https://maps.app.goo.gl/ZutfCstrjcNxMiH19" class="btn btn-primary">See in map</a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 2 -->
+    <div class="col-12 col-lg-4">
+      <div class="card" style="height: 25rem;">
+        <img src="./images/kannur_1/Muzhappilangad Drive-in Beach.jpeg" class="card-img-top" alt="..." style="height: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Muzhappilangad Drive-in Beach</h5>
+          <p class="card-text">Enjoy the unique experience of driving on the beach. A picturesque destination for beach lovers.</p>
+          <a href="https://maps.app.goo.gl/xtSWzLrfUscTuG5G8" class="btn btn-primary">See in map</a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 3 -->
+    <div class="col-12 col-lg-4">
+      <div class="card" style="height: 25rem;">
+        <img src="./images/kannur_1/Payyambalam-Beach.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Payyambalam Beach</h5>
+          <p class="card-text">Relax on the sandy shores of Payyambalam Beach. A perfect blend of tranquility and natural beauty.</p>
+          <a href="https://maps.app.goo.gl/wBrhr1jt45yXRXyL8" class="btn btn-primary">See in map</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of First Row -->
+  
+  
+  
+<br>
+  <!-- Second Row -->
+<div class="row">
+    <!-- Card 4 -->
+    <div class="col-12 col-lg-4">
+      <div class="card" style="height: 25rem;">
+        <img src="./images/kannur_1/pythal mala.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Paithalmala</h5>
+          <p class="card-text">Discover the breathtaking views from Paithalmala. An ideal destination for trekking and nature enthusiasts.</p>
+          <a href="https://maps.app.goo.gl/qZ5DjvQp2YuDYV146" class="btn btn-primary">See in map</a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 5 -->
+    <div class="col-12 col-lg-4">
+      <div class="card" style="height: 25rem;">
+        <img src="./images/kannur_1/Kannur_Aralam_wildlife_sanctuary.webp" class="card-img-top" alt="..." style="height: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Aralam Wildlife Sanctuary</h5>
+          <p class="card-text">Explore the diverse flora and fauna at Aralam Wildlife Sanctuary. A haven for nature lovers.</p>
+          <a href="https://maps.app.goo.gl/pc7KEYE7KQcgtF6G6" class="btn btn-primary">See in map</a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 6 -->
+    <div class="col-12 col-lg-4">
+      <div class="card" style="height: 25rem;">
+        <img src="./images/kannur_1/Parassinikadavu snake park.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Parassinikadavu Snake Park</h5>
+          <p class="card-text">Experience the fascinating world of reptiles. A must-visit for snake enthusiasts.</p>
+          <a href="https://maps.app.goo.gl/AD1jn4HdZ6YUvk7DA" class="btn btn-primary">See in map</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Second Row -->
+  
+  
+  <br>
+  
+  <!-- Third Row -->
+<div class="row">
+    <!-- Card 7 -->
+    <div class="col-12 col-lg-4">
+      <div class="card" style="height: 25rem;">
+        <img src="./images/kannur_1/Dharmadam Island.jpeg" class="card-img-top" alt="..." style="height: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Dharmadam Island</h5>
+          <p class="card-text">Escape to the serene Dharmadam Island. A peaceful retreat surrounded by the beauty of nature.</p>
+          <a href="https://maps.app.goo.gl/brW45FsDebjvUg7Z8" class="btn btn-primary">See in map</a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 8 -->
+    <div class="col-12 col-lg-4">
+      <div class="card" style="height: 25rem;">
+        <img src="./images/kannur_1/Kizhunna Ezhara Beach.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Kizhunna Ezhara Beach</h5>
+          <p class="card-text">Enjoy the sun and sand at Kizhunna Ezhara Beach. An ideal spot for beach activities and relaxation.</p>
+          <a href="https://maps.app.goo.gl/BkZ9vF1eABUab7Xi6" class="btn btn-primary">See in map</a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 9 -->
+    <div class="col-12 col-lg-4">
+      <div class="card" style="height: 25rem;">
+        <img src="./images/kannur_1/Ezhimala Beach.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Meenkunnu Beach        </h5>
+          <p class="card-text">Experience the pristine beauty of Meenkunnu Beach. A quiet getaway with peaceful atmosphere.</p>
+          <a href="https://maps.app.goo.gl/MBDjVEKxL8QZ97q7A" class="btn btn-primary">See in map</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Third Row -->
+  
+  
+  <br>
+    <!-- Fourth Row -->
+<div class="row">
+    <!-- Card 10 -->
+    <div class="col-12 col-lg-4">
+      <div class="card" style="height: 25rem;">
+        <img src="./images/kannur_1/madayi palli.webp" class="card-img-top" alt="..." style="height: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Madayi Mosque</h5>
+          <p class="card-text">An architectural marvel with a rich cultural heritage and religious significance.</p>
+          <a href="https://maps.app.goo.gl/emCNbv57Xd5cAjq89" class="btn btn-primary">See in map</a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 11 -->
+    <div class="col-12 col-lg-4">
+      <div class="card" style="height: 25rem;">
+        <img src="./images/kannur_1/thalassery-fort.jpg" class="card-img-top" alt="..." style="height: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Thalassery Fort</h5>
+          <p class="card-text">Explore the historical Thalassery Fort, a testimony to the colonial past and a site of cultural significance.</p>
+          <a href="https://maps.app.goo.gl/bTsphDyxm7QGn13g7" class="btn btn-primary">See in map</a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Card 12 -->
+    <div class="col-12 col-lg-4">
+      <div class="card" style="height: 25rem;">
+        <img src="./images/kannur_1/lighthouse.webp" class="card-img-top" alt="..." style="height: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Kannur Lighthouse</h5>
+          <p class="card-text">Climb to the top for panoramic views of the coastline. A landmark offering a glimpse into maritime history.</p>
+          <a href="https://maps.app.goo.gl/a2sdrgG8rCut1UUe7" class="btn btn-primary">See in map</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Fourth Row -->
+  
+    <br>
+  </div>
+  <br><br>
+
+   <!-- footer -->
+
+   <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <p>@author : nishalkk19@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+
+  
+      
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js   "></script>
+</body>
+</html>

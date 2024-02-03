@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kollam</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg  navbar-light bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold text-white" href="#whattosee">WhatToSee</a>
+          <button class="navbar-toggler" type="button " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  North kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="kasaragod.html">Kasaragod</a></li>
+                  <li><a class="dropdown-item" href="kannur.html">Kannur</a></li>
+                  <li><a class="dropdown-item" href="wayanad.html">Wayanad</a></li>
+                  <li><a class="dropdown-item" href="kozhikode.html">Kozhikode</a></li>
+                  <li><a class="dropdown-item" href="malappuram.html">Malappuram</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  central kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="palakkad.html">Palakkad</a></li>
+                  <li><a class="dropdown-item" href="thrissur.html">Thrissur</a></li>
+                  <li><a class="dropdown-item" href="ernakulam.html">Ernakulam</a></li>
+                  <li><a class="dropdown-item" href="idukki.html">Idukki</a></li>
+                  <li><a class="dropdown-item" href="kottayam.html">Kottayam</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  South kerala
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="alappuzha.html">Alappuzha</a></li>
+                  <li><a class="dropdown-item" href="patahanmthitta.html">Pathanamthitta</a></li>
+                  <li><a class="dropdown-item" href="kollam.html">Kollam</a></li>
+                  <li><a class="dropdown-item" href="thiruvananthapuram.html">Thiruvananthapuram</a></li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- carausel -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <!-- No need for indicators for additional slides if there's only one -->
+        </div>
+      
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay"></div>
+            <img src="./images/kollam.jpg" class="slide d-block w-100" alt="...">
+            <div class="carousel-caption d-flex align-items-center justify-content-center text-white">
+              <div>
+                <h5 class="custom-large-text"><b>Kollam</b></h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      
+        <!-- Navigation buttons remain the same -->
+      
+        <style>
+          .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(3, 3, 3, 0.3); /* Adjust the alpha value for the desired opacity */
+          }
+      
+          .carousel-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            text-align: center;
+          }
+      
+          .custom-large-text {
+            font-size: 6em; /* Adjust the font size as needed */
+            text-align: center;
+          }
+      
+          /* Responsive adjustments */
+          @media (max-width: 768px) {
+            .custom-large-text {
+              font-size: 3em; /* Adjust the font size for smaller screens */
+            }
+          }
+
+          @media (max-width: 768px) {
+            img.slide{
+                height: 350px;
+           }
+
+          }
+
+          .carouselExampleCaptions{
+            text-align: end;
+          }
+
+
+          @media (max-width: 768px) {
+    .card-body {
+      text-align: center; /* Center-align text for smaller screens */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      height: auto; /* Set height to auto for smaller screens */
+    }
+  }
+
+        </style>
+      </div>
+      
+
+      <!-- cards -->
+      <br><br>
+  <div>
+    <center>
+      <h1 id="whattosee">What to See</h1>
+    </center>
+  </div>
+
+  <br><br>
+  
+
+  <div class="container">
+    <!-- First Row -->
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam/ashtamudi lake.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Ashtamudi Lake</h5>
+            <p class="card-text">Explore the serenity of Ashtamudi Lake, renowned for its tranquil backwaters and picturesque landscapes.</p>
+            <a href="https://maps.app.goo.gl/4E9GNqxET3MyCzQb7" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam/Kollam_Beach_.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Kollam Beach</h5>
+            <p class="card-text">Relax at Kollam Beach, a beautiful shoreline offering a perfect blend of tranquility and vibrant local life.</p>
+            <a href="https://maps.app.goo.gl/W7SGBGZd5WA6T1HU8" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam/Thangassery-Lighthouse-Kollam.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Thangassery Light House</h5>
+            <p class="card-text">Visit Thangassery Light House, an iconic landmark providing panoramic views of the Arabian Sea.</p>
+            <a href="https://maps.app.goo.gl/GbqvhheKbMdAPAZU7" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of First Row -->
+<br>
+    <!-- Second Row -->
+    <div class="row">
+      <!-- Card 4 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam/paalaruvi waterfalls.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Palaruvi Waterfalls</h5>
+            <p class="card-text">Marvel at the beauty of Palaruvi Waterfalls, a cascading natural wonder surrounded by lush greenery.</p>
+            <a href="https://maps.app.goo.gl/EjkSSWwtk4iMfJnm6" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam/munroe island (2).webp" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Munroe Island</h5>
+            <p class="card-text">Discover the charm of Munroe Island, a peaceful backwater destination with scenic landscapes and village life.</p>
+            <a href="https://maps.app.goo.gl/X578cRxgquW78wVC8" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam/shendurney-wildlife-sanctuary-.webp" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Shendurney Wildlife Sanctuary</h5>
+            <p class="card-text">Explore the biodiversity of Shendurney Wildlife Sanctuary, home to diverse flora and fauna in a natural habitat.</p>
+            <a href="https://maps.app.goo.gl/6ohoH8yGfLqj2VRLA" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Second Row -->
+<br>
+    <!-- Third Row -->
+    <div class="row">
+      <!-- Card 7 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Jatayu Earth's Center</h5>
+            <p class="card-text">Visit Jatayu Earth's Center, an innovative tourism destination offering adventure activities and cultural experiences.</p>
+            <a href="https://maps.app.goo.gl/cYhRF1XypU8KFce68" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam/amritapuri.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Amritapuri</h5>
+            <p class="card-text">Visit Amritapuri, the spiritual headquarters of Mata Amritanandamayi, featuring a serene ashram and charitable activities.</p>
+            <a href="https://maps.app.goo.gl/1GVJLHC7fzPm9YRE9" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam/thenmala.jpeg" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Thenmala Eco-Tourism</h5>
+            <p class="card-text">Experience nature at its best in Thenmala Eco-Tourism, a haven for eco-enthusiasts with adventure and leisure activities.</p>
+            <a href="https://maps.app.goo.gl/9bEe1UG6GhyUsQ9W6" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Third Row -->
+<br>
+    <!-- Fourth Row -->
+    <div class="row">
+      <!-- Card 10 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam/Sasthamcotta_Lake_.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Sasthamkotta Lake</h5>
+            <p class="card-text">Visit Sasthamkotta Lake, the largest freshwater lake in Kerala, offering a serene environment and natural beauty.</p>
+            <a href="https://maps.app.goo.gl/n7v5pC2JNa2sE5Ju7" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 11 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam/kottarakkara sree.. temple.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Kottarakkara Sree Mahaganapathy Kshethram</h5>
+            <p class="card-text">Visit Kottarakkara Sree Mahaganapathy Kshethram, a renowned temple dedicated to Lord Ganesha with cultural and spiritual significance.</p>
+            <a href="https://maps.app.goo.gl/wxC1WSQubLcqyMzv8" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 12 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam/nadeekara.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Neendakara Port</h5>
+            <p class="card-text">Explore Neendakara Port, a bustling harbor with a vibrant fishing community and picturesque views of the Arabian Sea.</p>
+            <a href="https://maps.app.goo.gl/AGyJ4ErjXdT98qMk8" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Fourth Row -->
+<br>
+    <!-- Fifth Row -->
+    <div class="row">
+      <!-- Card 13 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam/oachira-parabrahma-temple-.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Oachira Parabrahma Temple</h5>
+            <p class="card-text">Visit Oachira Parabrahma Temple, a unique religious destination known for its sacred padanilam (open field) where rituals are performed.</p>
+            <a href="https://maps.app.goo.gl/pR5t3yXGbFYeRmJKA" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 14 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam/thevally palace.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Thevally Palace</h5>
+            <p class="card-text">Explore the historical charm of Thevally Palace, an architectural masterpiece with a rich heritage and scenic surroundings.</p>
+            <a href="https://maps.app.goo.gl/Xz8QAB97tDbvaK376" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 15 -->
+      <div class="col-12 col-lg-4">
+        <div class="card" style="height: 25rem;">
+          <img src="./images/kollam/Mayyanad_Kollam_2736.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+          <div class="card-body">
+            <h5 class="card-title">Mayyanad</h5>
+            <p class="card-text">Experience the cultural richness of Mayyanad, a village with historic temples and a vibrant local community.</p>
+            <a href="https://maps.app.goo.gl/SC8S8RirBESho42QA" class="btn btn-primary">See in map</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Fifth Row -->
+
+  </div>
+
+
+
+  <br><br>
+
+   <!-- footer -->
+
+   <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <p>@author : nishalkk19@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+
+  
+      
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js   "></script>
+</body>
+</html>
